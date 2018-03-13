@@ -30,7 +30,7 @@ apis:
   tags: URI
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/uri/master/_listings/intrinio/securities-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/uri/master/_listings/intrinio/securities-search-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
