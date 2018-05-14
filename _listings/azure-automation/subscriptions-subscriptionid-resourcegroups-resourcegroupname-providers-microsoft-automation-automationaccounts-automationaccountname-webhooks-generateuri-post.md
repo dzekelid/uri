@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API Webhook Generate Uri
   version: 1.0.0
+  description: Generates a Uri for use in creating a webhook.
 host: management.azure.com
 basePath: /
 schemes:
