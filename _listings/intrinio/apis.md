@@ -31,16 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/uri/master/_listings/intrinio/securities-institutional-ownership-get.md
-- name: Intrinio API Securities Search/Screener
-  description: Returns a list of all securities that match the given conditions. The
-    API call credits required for each call is equal to the number of conditions specified.
+- name: Intrinio API Institutional Owners by Security
+  description: https://api.intrinio.com/securities/institutional_ownership?identifier={symbol}
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: URI
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uri/master/_listings/intrinio/securities-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uri/master/_listings/intrinio/securities-institutional-ownership-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
