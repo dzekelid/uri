@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite InterBanks
-  description: Provide information about global interbank interest rates.
+  title: Xignite Interbanks Get EURIBOR
+  description: Returns a EURIBOR as of a date
   version: 1.0.0
 host: www.xignite.com
 basePath: xInterBanks.json/XigniteInterBanks
