@@ -28,16 +28,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/uri/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
 apis:
-- name: OpenCorporates Companies  Jurisdiction Code  Company Number Network
-  description: nThis returns the immediate &#39;computed corporate network&#39; for
-    the given company as a set of control relationships (i
+- name: OpenCorporates Jurisdictions Match
+  description: nThis matches the name of a jurisdiction to the jurisdiction
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
   humanURL: https://opencorporates.com/
   baseURL: http:://api.opencorporates.com/v0.4/
   tags: URI
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uri/master/_listings/opencorporates/companies-jurisdiction-code-company-number-network-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/uri/master/_listings/opencorporates/jurisdictions-match-get.md
 x-common:
 - type: x-base
   url: https://api.opencorporates.com/
